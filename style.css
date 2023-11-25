@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Libre+Baskerville&family=Montserrat:ital@1&family=Poppins&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container h1 {
+  margin-bottom: 10px;
+  
+}
+
+.container button {
+  margin-bottom: 20px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  background-color: green;
+  padding: 5px 15px;
+  font-size: 20px
+}
+
+.container p {
+  font-size: 1.2em
+}
